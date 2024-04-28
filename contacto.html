@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polo Robles Esculturas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contactos.css">
+</head>
+<DIV class="size-bar">
+<form action="/search" method="get" class="search-form">
+    <input type="text" name="q" class="search-input" placeholder="Buscar...">
+    <button type="submit" class="search-button">Buscar</button>
+</form>
+</DIV>
+<body>
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <!-- Logo de la empresa -->
+                <div class="header-logo">
+                    <img src="./img/pre-logo.png" alt="Logo de la empresa">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="container">
+                <!-- Menú -->
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Catálogo</a></li>
+                        <li><a href="#">Carrito de compra</a></li>
+                        <li><a href="#">Quiénes somos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Ubicación de la tienda</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    
+    <main>
+        <section class="contact">
+            <!-- formulario de contacto en html y css -->
+    
+            <div class="form-container">
+                <h2>Formulario de Contacto</h2>
+                <form id="contactForm" action="#" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    <div class="form-group-mensaje">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="motivo">Motivo de Contacto:</label>
+                        <select id="motivo" name="motivo" required>
+                            <option value="">Selecciona un motivo</option>
+                            <option value="consulta">Consulta</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="queja">Queja</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Preferencias de contacto:</label><br>
+                        <input type="checkbox" id="preferencia_email" name="preferencia_contacto" value="email">
+                        <label for="preferencia_email">Email</label><br>
+                        <input type="checkbox" id="preferencia_telefono" name="preferencia_contacto" value="telefono">
+                        <label for="preferencia_telefono">Teléfono</label><br>
+                        <input type="checkbox" id="preferencia_whatsapp" name="preferencia_contacto" value="whatsapp">
+                        <label for="preferencia_whatsapp">WhatsApp</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="archivo">Adjuntar archivo:</label>
+                        <input type="file" id="archivo" name="archivo">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+    
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Acerca de Polo</a></li>
+                    <li><a href="#">Buscar</a></li>
+                    <li><a href="#">Trabajar en Polo</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Contacto con Polo</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <ul>
+                    <li><a href="https://m.facebook.com/profile.php?id=100046452861886"><img src="img/rrss/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/Polo.Robles.Argentina/"><img src="img/rrss/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright Polo Robles Argentina - 2024. Todos los derechos reservados.
+                Defensa de las y los consumidores. Para reclamos <a href="#">ingresá acá</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
