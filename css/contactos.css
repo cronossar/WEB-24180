@@ -118,7 +118,7 @@ body{
     border-radius: 5px;
   }
   
-  button {
+  .boton {
     width: 100%;
     padding: 10px;
     background-color: #ffc400;
@@ -129,7 +129,7 @@ body{
     transition: background-color 0.3s;
   }
   
-  button:hover {
+  .boton:hover {
     background-color: #0056b3;
   }
   
