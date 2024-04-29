@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Polo Robles Esculturas</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <link rel="stylesheet" href="css/contactos.css">
 </head>
 <DIV class="size-bar">
@@ -25,6 +25,7 @@
         </div>
         <div class="bottom-bar">
             <div class="container">
+               
                 <!-- Menú -->
                 <nav class="header-nav">
                     <ul>
@@ -42,53 +43,46 @@
     
     
     <main>
-        <section class="contact">
-            <!-- formulario de contacto en html y css -->
-    
-            <div class="form-container">
-                <h2>Formulario de Contacto</h2>
-                <form id="contactForm" action="#" method="post">
-                    <div class="form-group">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="text" id="email" name="email" required>
-                    </div>
-                    <div class="form-group-mensaje">
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="motivo">Motivo de Contacto:</label>
-                        <select id="motivo" name="motivo" required>
-                            <option value="">Selecciona un motivo</option>
-                            <option value="consulta">Consulta</option>
-                            <option value="sugerencia">Sugerencia</option>
-                            <option value="queja">Queja</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>Preferencias de contacto:</label><br>
-                        <input type="checkbox" id="preferencia_email" name="preferencia_contacto" value="email">
-                        <label for="preferencia_email">Email</label><br>
-                        <input type="checkbox" id="preferencia_telefono" name="preferencia_contacto" value="telefono">
-                        <label for="preferencia_telefono">Teléfono</label><br>
-                        <input type="checkbox" id="preferencia_whatsapp" name="preferencia_contacto" value="whatsapp">
-                        <label for="preferencia_whatsapp">WhatsApp</label>
-                    </div>
-                    <div class="form-group">
-                        <label for="archivo">Adjuntar archivo:</label>
-                        <input type="file" id="archivo" name="archivo">
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" value="Enviar">
-                    </div>
-                </form>
-            </div>
-    
-        </section>
+         <!-- formulario de contacto en html y css -->
+         <div class="container-form">
+            <h1>Formulario de Contacto</h1>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="reason">Motivo de contacto:</label>
+                <select id="reason" name="reason" required>
+                  <option value="">Seleccione...</option>
+                  <option value="consulta">Consulta</option>
+                  <option value="comentario">Comentario</option>
+                  <option value="queja">Queja</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="checkbox">Acepto los términos y condiciones:</label>
+                <input type="checkbox" id="checkbox" name="terms" required>
+              </div>
+              <div class="form-group">
+                <label for="attachment">Adjuntar archivo:</label>
+                <input type="file" id="attachment" name="attachment">
+              </div>
+              <div class="form-group">
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+          <script src="contactojs.js"></script>
+            
     </main>
 
     <footer id="footer">
