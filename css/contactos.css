@@ -88,17 +88,29 @@ body{
   .form-group {
     margin-bottom: 20px;
   }
+
+  .form-group-check{
+    width: 200px;
+    display: flex;
+    align-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   
   label {
     display: block;
     margin-bottom: 5px;
+  }
+
+  input[type="checkbox"]{
+    width: 40px;
   }
   
   input[type="text"],
   input[type="email"],
   textarea,
   select,
-  input[type="checkbox"],
+  /* input[type="checkbox"], */
   input[type="file"] {
     width: calc(100% - 20px);
     padding: 10px;
@@ -138,6 +150,7 @@ body{
   input[type="file"]::-webkit-file-upload-button:hover {
     background-color: #0056b3;
   }
+  
 
 /* Estilos del footer */
 #footer {
