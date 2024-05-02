@@ -93,6 +93,12 @@ body{
     display: block;
     margin-bottom: 5px;
   }
+
+  .label-check{
+   width: 45%;
+  }
+
+  
   
   input[type="text"],
   input[type="email"],
@@ -106,7 +112,7 @@ body{
     border-radius: 5px;
   }
   
-  button {
+  .boton {
     width: 100%;
     padding: 10px;
     background-color: #ffc400;
@@ -117,12 +123,16 @@ body{
     transition: background-color 0.3s;
   }
   
-  button:hover {
+  .boton:hover {
     background-color: #0056b3;
   }
   
   input[type="file"] {
     padding: 5px;
+  }
+
+  .check {
+    height: 20px;
   }
   
   input[type="file"]::-webkit-file-upload-button {
