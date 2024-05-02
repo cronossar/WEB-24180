@@ -105,11 +105,12 @@ body{
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
+
+    
   button {
     width: 100%;
     padding: 10px;
-    background-color: #ffc400;
+    background-color: hsl(29, 100%, 50%);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -127,7 +128,7 @@ body{
   
   input[type="file"]::-webkit-file-upload-button {
     padding: 10px;
-    background-color: #ffc400;
+    background-color: hsl(29, 100%, 50%);
     color: #fff;
     border: none;
     border-radius: 5px;
