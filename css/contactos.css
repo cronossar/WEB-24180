@@ -93,12 +93,6 @@ body{
     display: block;
     margin-bottom: 5px;
   }
-
-  .label-check{
-   width: 45%;
-  }
-
-  
   
   input[type="text"],
   input[type="email"],
@@ -111,11 +105,12 @@ body{
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
-  .boton {
+
+    
+  button {
     width: 100%;
     padding: 10px;
-    background-color: #ffc400;
+    background-color: hsl(29, 100%, 50%);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -123,21 +118,17 @@ body{
     transition: background-color 0.3s;
   }
   
-  .boton:hover {
+  button:hover {
     background-color: #0056b3;
   }
   
   input[type="file"] {
     padding: 5px;
   }
-
-  .check {
-    height: 20px;
-  }
   
   input[type="file"]::-webkit-file-upload-button {
     padding: 10px;
-    background-color: #ffc400;
+    background-color: hsl(29, 100%, 50%);
     color: #fff;
     border: none;
     border-radius: 5px;
