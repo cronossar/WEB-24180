@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+:root{
+    --gold1:#f4bd76;
+    --gold2:#f6cd8f;
+    --gray1:#ffffff80;
+    --gray2:#f7d9d980;
+    --black1:#1a1b1f;
+    --black2:#30353b;
+    --shadow:0 8px 8px;
+    --color-shadow:#00000033;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece el alto mínimo de la ventana del navegador */
+    
+}
+
+main {
+    flex-grow: 1; /* Hace que el contenido principal crezca para ocupar todo el espacio disponible */
+}
+
+/* Estilos del header */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Centra el contenido del header */
+    display: flex; /* Utiliza flexbox para alinear verticalmente los elementos */
+    align-items: center; /* Alinea verticalmente los elementos dentro del header */
+}
+
+.header-nav {
+    margin-right: auto; /* Coloca el menú de navegación a la derecha */
+}
+
+.header-actions {
+    margin-right: 20px; /* Ajusta el margen entre el menú y las acciones */
+}
+
+.header-nav ul {
+    text-align: left; /* Alinea los elementos de la lista a la izquierda */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si el contenido es demasiado ancho */
+}
+
+.header-nav ul li {
+    display: inline-block;
+    padding: 0 15px; /* Espacio interno de cada elemento del menú */
+}
+
+.header-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+
+.header-logo {
+    margin-right: auto; /* Coloca el logo al lado izquierdo */
+}
+
+.header-logo img {
+    height: 80px; /* Ajusta el tamaño del logo según sea necesario */
+    width: auto; /* Mantiene la proporción de la imagen */
+}
+
+.header-actions .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #0070c9;
+    color: #fff;
+}
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .item {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .item p {
+    padding: 10px;
+  }
+
+
+
+
+  /* Estilos del footer */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.footer-social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social ul li {
+    display: inline-block; /* Para que los elementos se muestren en línea */
+    margin-right: 20px; /* Espacio entre los iconos */
+}
+
+.footer-social ul li:last-child {
+    margin-right: 0; /* Quita el margen derecho del último elemento para evitar espacios adicionales */
+}
+
+.footer-social ul li img {
+    width: 32px; /* Establece el ancho de los iconos */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+a {
+    color: #ffffff; /* Cambia el color del texto de todos los enlaces a blanco */
+}
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+    flex: 1;
+}
+
+.search-button {
+    padding: 0;
+    background-color: white;
+    border:1px solid #ccc;
+    border-radius: 1000px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.search-button img {
+    width: 20px; /* ajusta el tamaño del icono según sea necesario */
+}
+.size-bar{
+    padding: 5px 500px;
+    background-color: #fffcfc;
+}
