@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+:root{
+    --gold1:#f4bd76;
+    --gold2:#f6cd8f;
+    --gray1:#ffffff80;
+    --gray2:#f7d9d980;
+    --black1:#1a1b1f;
+    --black2:#30353b;
+    --shadow:0 8px 8px;
+    --color-shadow:#00000033;
+}
+
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
@@ -6,6 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Establece el alto mínimo de la ventana del navegador */
+    background-color: #30353b;
 }
 
 main {
@@ -75,6 +88,63 @@ main {
 .btn-primary {
     background-color: #0070c9;
     color: #fff;
+}
+
+/* MAIN- DANIEL */
+.hero{
+    width: 100%;
+    min-height: 10vh;
+    background: linear-gradient(180deg, #8a8b8c, #1a1b1f 100%);
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.mockup{
+    object-fit: cover;
+    width: 35%;
+    max-height: 100vh;
+}
+.mockup:hover{
+    filter: brightness(190%);
+}
+
+.hero-textos{
+    width: 50%;
+}
+
+.titulo{
+    font-size: 100px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: var(--shadow) var(--color-shadow);
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease; /*Efectos webkit */
+}
+
+.titulo:hover{
+     font-size: 140px; /*trabaja con el webkit */
+}
+
+.letra1{
+    color: var(--gold1);
+    font-weight: 700;
+}
+
+.copy{
+    font-size: 48px;
+    color: var(--gold2);
+    text-shadow: var(--shadow) var(--color-shadow);
+    margin: 15px 0;
+}
+
+.copy-active{
+    font-weight: 700;
 }
 
 /* Estilos del footer */
