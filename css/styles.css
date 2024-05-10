@@ -18,7 +18,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Establece el alto mínimo de la ventana del navegador */
-    background-color: #30353b;
+    
+}
+
+#principal{
+background-color:#1a1b1f
 }
 
 main {
@@ -117,8 +121,8 @@ main {
 .hero-textos{
     width: 50%;
 }
-
-.titulo{
+#tit1{
+    margin-bottom: 8px;
     font-size: 100px;
     font-weight: 300;
     color: #fff;
@@ -126,9 +130,25 @@ main {
     -webkit-transition: font-size 1s ease;
     transition: font-size 1s ease; /*Efectos webkit */
 }
+#tit2{
+    margin-top: 0;
+    font-size: 100px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: var(--shadow) var(--color-shadow);
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease; /*Efectos webkit */
+    margin-bottom: 0;
+}
 
-.titulo:hover{
+
+
+
+#tit1:hover{
      font-size: 140px; /*trabaja con el webkit */
+}
+#tit2:hover{
+    font-size: 140px; /*trabaja con el webkit */
 }
 
 .letra1{
