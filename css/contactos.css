@@ -107,7 +107,7 @@ body{
   }
 
     
-  button {
+  .bot_enviar {
     width: 100%;
     padding: 10px;
     background-color: hsl(29, 100%, 50%);
@@ -118,7 +118,7 @@ body{
     transition: background-color 0.3s;
   }
   
-  button:hover {
+  .bot_enviar:hover {
     background-color: #0056b3;
   }
   
@@ -141,6 +141,15 @@ body{
   }
 
 /* Estilos del footer */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #footer {
     background-color: #333;
     color: #fff;

@@ -11,7 +11,7 @@ body {
 main {
     flex-grow: 1; /* Hace que el contenido principal crezca para ocupar todo el espacio disponible */
 }
-
+/* ESTE CONTAINER ES DEL FOOTER  */
 .container {
     width: 90%;
     margin: 0 auto;
@@ -243,3 +243,19 @@ a {
       background-color: rgba(240, 238, 238, 0.938);
   border: 1px solid black;
 border-collapse: collapse;}
+
+/* GOOGLE MAPS - DANIEL */
+
+.mapa{
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 20px 0 20px 0; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../img/fondomapa.jpg);
+}
+
+.mapa_merlo{
+    border-radius: 3px;
+}
