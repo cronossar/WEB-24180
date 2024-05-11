@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+:root{
+    --gold1:#f4bd76;
+    --gold2:#f6cd8f;
+    --gray1:#ffffff80;
+    --gray2:#f7d9d980;
+    --black1:#1a1b1f;
+    --black2:#30353b;
+    --shadow:0 8px 8px;
+    --color-shadow:#00000033;
+}
+
+>>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
@@ -6,12 +21,24 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Establece el alto mínimo de la ventana del navegador */
+<<<<<<< HEAD
+=======
+    
+}
+
+#principal{
+background-color:#1a1b1f
+>>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
 }
 
 main {
     flex-grow: 1; /* Hace que el contenido principal crezca para ocupar todo el espacio disponible */
 }
+<<<<<<< HEAD
 
+=======
+/* ESTE CONTAINER ES DEL FOOTER  */
+>>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
 .container {
     width: 90%;
     margin: 0 auto;
@@ -77,6 +104,82 @@ main {
     color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+/* MAIN- DANIEL */
+.hero{
+    width: 100%;
+    min-height: 10vh;
+    background: linear-gradient(180deg, #8a8b8c, #1a1b1f 100%);
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.mockup{
+    object-fit: cover;
+    width: 35%;
+    max-height: 100vh;
+}
+.mockup:hover{
+    filter: brightness(190%);
+}
+
+.hero-textos{
+    width: 50%;
+}
+#tit1{
+    margin-bottom: 8px;
+    font-size: 100px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: var(--shadow) var(--color-shadow);
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease; /*Efectos webkit */
+}
+#tit2{
+    margin-top: 0;
+    font-size: 100px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: var(--shadow) var(--color-shadow);
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease; /*Efectos webkit */
+    margin-bottom: 0;
+}
+
+
+
+
+#tit1:hover{
+     font-size: 140px; /*trabaja con el webkit */
+}
+#tit2:hover{
+    font-size: 140px; /*trabaja con el webkit */
+}
+
+.letra1{
+    color: var(--gold1);
+    font-weight: 700;
+}
+
+.copy{
+    font-size: 48px;
+    color: var(--gold2);
+    text-shadow: var(--shadow) var(--color-shadow);
+    margin: 15px 0;
+}
+
+.copy-active{
+    font-weight: 700;
+}
+
+>>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
 /* Estilos del footer */
 #footer {
     background-color: #333;
@@ -242,4 +345,24 @@ a {
   table, td {
       background-color: rgba(240, 238, 238, 0.938);
   border: 1px solid black;
+<<<<<<< HEAD
 border-collapse: collapse;}
+=======
+border-collapse: collapse;}
+
+/* GOOGLE MAPS - DANIEL */
+
+.mapa{
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 20px 0 20px 0; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../img/fondomapa.jpg);
+}
+
+.mapa_merlo{
+    border-radius: 3px;
+}
+>>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
