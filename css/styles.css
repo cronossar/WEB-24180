@@ -175,6 +175,10 @@ main {
     text-align: center; /* Alinea el texto al centro */
 }
 
+a{
+    text-decoration: none;
+}
+
 .footer-social ul {
     list-style-type: none;
     margin: 0;
@@ -246,7 +250,7 @@ a {
 }
 
 .objeto img{
-    width: 100%;
+    width:80%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     transition: all .5s;

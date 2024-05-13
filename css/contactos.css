@@ -157,6 +157,10 @@ body{
     text-align: center; /* Alinea el texto al centro */
 }
 
+a{
+    text-decoration: none;
+}
+
 .footer-social ul {
     list-style-type: none;
     margin: 0;
