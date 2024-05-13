@@ -93,6 +93,7 @@ main {
     background-color: #0070c9;
     color: #fff;
 }
+
 /* MENU DE TORTA */
 .bars{
     display: none;
@@ -359,41 +360,3 @@ border-collapse: collapse;}
     border-radius: 3px;
 }
 
-@media screen and (max-width: 1200px) {
-      
-} 
-
-@media screen and (max-width: 992px) {
-    .container ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    body{
-       width: 75%;
-    }
-    
-    .search-form{
-        justify-content: center;
-    } 
-}   
-
-@media screen and (max-width: 720px) {
-.container ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.search-form{
-    justify-content: center;
-}
-  
-    
-
-    
-
-
-        
-    
-}
