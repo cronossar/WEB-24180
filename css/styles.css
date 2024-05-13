@@ -93,6 +93,11 @@ main {
     background-color: #0070c9;
     color: #fff;
 }
+/* MENU DE TORTA */
+.bars{
+    display: none;
+  }
+
 
 /* MAIN- DANIEL */
 .hero{
@@ -352,4 +357,26 @@ border-collapse: collapse;}
 
 .mapa_merlo{
     border-radius: 3px;
+}
+
+@media screen and (max-width: 777px) {
+.header-logo{
+    display: none;
+    
+}
+
+    .container ul{
+       
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    
+
+    @media screen and (max-width: 772px) {
+  
+        
+
+}
 }
