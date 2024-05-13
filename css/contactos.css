@@ -88,59 +88,29 @@ body{
   .form-group {
     margin-bottom: 20px;
   }
-<<<<<<< HEAD
-
-  .form-group-check{
-    width: 200px;
-    display: flex;
-    align-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-=======
->>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
   
   label {
     display: block;
     margin-bottom: 5px;
   }
-<<<<<<< HEAD
-
-  input[type="checkbox"]{
-    width: 40px;
-  }
-=======
->>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
   
   input[type="text"],
   input[type="email"],
   textarea,
   select,
-<<<<<<< HEAD
-  /* input[type="checkbox"], */
-=======
   input[type="checkbox"],
->>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
   input[type="file"] {
     width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-<<<<<<< HEAD
-  
-  .boton {
-    width: 100%;
-    padding: 10px;
-    background-color: #ffc400;
-=======
 
     
   .bot_enviar {
     width: 100%;
     padding: 10px;
     background-color: hsl(29, 100%, 50%);
->>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -148,11 +118,7 @@ body{
     transition: background-color 0.3s;
   }
   
-<<<<<<< HEAD
-  .boton:hover {
-=======
   .bot_enviar:hover {
->>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
     background-color: #0056b3;
   }
   
@@ -162,11 +128,7 @@ body{
   
   input[type="file"]::-webkit-file-upload-button {
     padding: 10px;
-<<<<<<< HEAD
-    background-color: #ffc400;
-=======
     background-color: hsl(29, 100%, 50%);
->>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -177,11 +139,6 @@ body{
   input[type="file"]::-webkit-file-upload-button:hover {
     background-color: #0056b3;
   }
-<<<<<<< HEAD
-  
-
-/* Estilos del footer */
-=======
 
 /* Estilos del footer */
 
@@ -193,12 +150,15 @@ body{
     align-items: center;
 }
 
->>>>>>> fc0659c9a67e52b1ffa06eb886d11eaa8fb32cfb
 #footer {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center; /* Alinea el texto al centro */
+}
+
+a{
+    text-decoration: none;
 }
 
 .footer-social ul {
